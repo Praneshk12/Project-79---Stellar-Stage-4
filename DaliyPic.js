@@ -62,7 +62,7 @@ export default class DailyPicScreen extends Component {
       }>
       <View style={styles.iconContainer}>
         <Image
-          source={require('../assets/play-video.png')}
+          source={require('./play-video.png')}
           style={{ width: 50, height: 50 }}></Image>
       </View>
     </TouchableOpacity>;
@@ -82,7 +82,7 @@ export default class DailyPicScreen extends Component {
         <View style={styles.container}>
           <SafeAreaView style={styles.droidSafeArea} />
           <ImageBackground
-            source={require('../assets/stars.gif')}
+            source={require('./stars.gif')}
             style={styles.backgroundImage}>
             <View
               style={{
